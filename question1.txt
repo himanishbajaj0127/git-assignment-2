@@ -1,0 +1,6 @@
+1. Create the separate branch of your name.
+Ans-
+We can check all the branches with the command $ git  branch
+Then to create a new branch we use $ git branch <branch name> {it should not be same as the existing branch}
+Now if you will check you can see all the branches with the new branch created , but the green highlighted branch is main branch
+Then to shift to the new branch or to mention any branch we use $ git checkout <branch name>

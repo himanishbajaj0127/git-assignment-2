@@ -1,0 +1,4 @@
+8. How to unstage changes from the staged area. write command for it.
+Ans:
+The ways to command for unstaging changes from the staged area like:
+$ git restore --staged <filename >

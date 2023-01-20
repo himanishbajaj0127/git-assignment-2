@@ -1,0 +1,4 @@
+2. Create folder of my name in new branch.
+Ans-
+To create a new folder we use the command “mkdir”, and to remove the folder we use “rmdir”
+“ls” command shows all the folders and files

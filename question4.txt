@@ -1,0 +1,10 @@
+4. How to set multiple remote repositories for the same project? Explain the use case. you should have a working demo of it.
+Ans-
+Multi repository concept is also known as mano-repo.
+The major use cases are:
+Fostering Collaboration and Communication among Developers, With a single place to version your serverless app, your engineers have a centralized place to collaborate, track features, and work together on a shared infrastructure.
+Simplifying Dependencies Management
+A serverless deployment package includes functions and dependencies (usually external libraries). Serverless platforms like AWS Lambda typically have a size limit on deployment packages. It's best practice to package your app dependencies in layers that can be reused by other services. This ensures that your deployment package does not get too large. Coordinating and managing dependencies is a lot easier in mono-repo than in multi-repo.
+
+For a mid-size project residing in a single repository, refactoring is way more natural. With the IDE’s refactor command, you can quickly issue bug fixes that impact multiple services or refactor methods, functions, and classes. With multiple repositories, complexity sets in
+
